@@ -5,3 +5,4 @@ Key Features:-
 1. Built on MVVM architecture.
 2. Option to switch between light and dark mode.
 3. Support for both English and Hindi languages. Contains in-app option to switch languages.
+4. Used Realm for persisting last shown weather data for offline viewing
