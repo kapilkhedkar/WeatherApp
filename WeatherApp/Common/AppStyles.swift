@@ -31,23 +31,28 @@ enum AppColor
 
 class AppStyles
 {
+    static let itemCornerRadius : CGFloat = 8.0
+    static let itemShadowRadius : CGFloat = 10.0
+    static let itemShadowOffset : CGSize = .zero
+    static let itemShadowOpacity : Float = 1.0
+    
     class func getFontStyle(style: FontStyle)->UIFont
     {
         switch style {
         case .navBarText:
-            return UIFont(name: "Inter-Bold", size: 20.0)!
+            return UIFont(name: "Poppins-Medium", size: 20.0)!
         case .titleText:
-            return UIFont(name: "Inter-Bold", size: 16.0)!
+            return UIFont(name: "Poppins-Medium", size: 16.0)!
         case .subtitleText:
-            return UIFont(name: "Inter-Regular", size: 14.0)!
+            return UIFont(name: "Poppins-Light", size: 14.0)!
         case .buttonText:
-            return UIFont(name: "Inter-Bold", size: 20.0)!
+            return UIFont(name: "Poppins-Medium", size: 20.0)!
         case .blowedUpText:
-            return UIFont(name: "Inter-Bold", size: 24.0)!
+            return UIFont(name: "Poppins-Medium", size: 36.0)!
         case .bodyTitleText:
-            return UIFont(name: "Inter-Bold", size: 14.0)!
+            return UIFont(name: "Poppins-Medium", size: 14.0)!
         case .bodySubtitleText:
-            return UIFont(name: "Inter-Regular", size: 14.0)!
+            return UIFont(name: "Poppins-Light", size: 14.0)!
         }
         
     }

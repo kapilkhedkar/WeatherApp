@@ -13,6 +13,10 @@
 "wind_speed" = "Wind Speed";
 "visibility" = "Visibility";
 "precipitation" = "Precipitation";
+"choose_language" = "Choose Language";
+"english" = "English";
+"hindi" = "Hindi";
+"cancel" = "Cancel";
 
 //Weather Descriptions
 "Sunny" = "Sunny";
@@ -40,4 +44,5 @@
 "Heavy rain at times" = "Heavy rain at times";
 "Heavy rain" = "Heavy rain";
 "Light freezing rain" = "Light freezing rain";
+"Haze" = "Haze";
 

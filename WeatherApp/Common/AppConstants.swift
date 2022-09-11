@@ -13,9 +13,20 @@ class AppConstants
     static let getCurrentWeatherAPI = apiBaseUrl+"current?access_key="+apiAccessKey+"&query="
     
     static let defaultApiFailureMsg = "Something went wrong!"
+    static let noInternetMsg = "No Internet Connection!"
     
     static let windSpeedUnit = "m/h"
     static let visibilityUnit = "m"
     static let precipitationUnit = "mm"
+    
+    static let themeModeDark = "Dark"
+    static let themeModeLight = "Light"
+    
+    static let languageEnglish = "en"
+    static let languageHindi = "hi"
+    
+    static let prefKeyThemeMode = "PrefKeyThemeMode"
+    static let prefKeyLanguage = "PrefKeyLanguage"
+    static let prefKeyCityName = "PrefKeyCityName"
     
 }

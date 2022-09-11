@@ -13,7 +13,6 @@ pod 'PanModal'
 pod 'SDWebImage', '~> 5.0'
 pod 'RappleProgressHUD'
 pod 'KSToastView', '0.5.7'
-pod 'RealmSwift', '~>10'
 
 
 end

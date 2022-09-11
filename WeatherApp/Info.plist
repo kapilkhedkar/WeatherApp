@@ -4,8 +4,21 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Inter-Bold</string>
-		<string>Inter-Regular</string>
+		<string>Poppins-Light.ttf</string>
+		<string>Poppins-Medium.ttf</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We&apos;ll use this to fetch the weather information.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We&apos;ll use this to fetch the weather information.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>We&apos;ll use this to fetch the weather information.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We&apos;ll use this to fetch the weather information.</string>
 </dict>
 </plist>

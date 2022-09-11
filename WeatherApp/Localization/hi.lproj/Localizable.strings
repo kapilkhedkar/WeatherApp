@@ -13,6 +13,10 @@
 "wind_speed" = "हवा की गति";
 "visibility" = "दृश्यता";
 "precipitation" = "वर्षण";
+"choose_language" = "भाषा चुनें";
+"english" = "अंग्रेज़ी";
+"hindi" = "हिन्दी";
+"cancel" = "रद्द करें";
 
 //Weather Descriptions
 "Sunny" = "धूप वाला";
@@ -40,3 +44,4 @@
 "Heavy rain at times" = "अक्सर जोरदार बारिश";
 "Heavy rain" = "जोरदार बारिश";
 "Light freezing rain" = "हल्की जमा देने वाली बारिश";
+"Haze" = "धुंध";
