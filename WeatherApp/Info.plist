@@ -2,23 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIAppFonts</key>
-	<array>
-		<string>Poppins-Light.ttf</string>
-		<string>Poppins-Medium.ttf</string>
-	</array>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>We&apos;ll use this to fetch the weather information.</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>We&apos;ll use this to fetch the weather information.</string>
-	<key>NSLocationUsageDescription</key>
-	<string>We&apos;ll use this to fetch the weather information.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We&apos;ll use this to fetch the weather information.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Poppins-Light.ttf</string>
+		<string>Poppins-Medium.ttf</string>
+	</array>
 </dict>
 </plist>
