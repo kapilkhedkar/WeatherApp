@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  WeatherApp
+
+  Created by Kapil Khedkar on 10/09/22.
+  
+*/
+
+"navBar_header" = "मौसम";
+"empty_location_msg" = "कोई स्थान नहीं मिला";
+"get_location_button_text" = "स्थान प्राप्त करें";
+"observation_time" = "अवलोकन समय";
+"wind_speed" = "हवा की गति";
+"visibility" = "दृश्यता";
+"precipitation" = "वर्षण";
+
+//Weather Descriptions
+"Sunny" = "धूप वाला";
+"Partly cloudy" = "हल्के बादल";
+"Cloudy" = "बादलों से भरा";
+"Overcast" = "बादलों से घिरा";
+"Mist" = "कोहरा";
+"Patchy rain possible" = "आसपास अलग-अलग इलाकों में वारिश";
+"Patchy snow possible" = "आसपास अलग-अलग इलाकों में हिमपात";
+"Patchy sleet possible" = "आसपास ओलों के साथ मामूली बारिश";
+"Patchy freezing drizzle possible" = "आसपास अलग-अलग इलाकों में जमा देने वाली बौछार";
+"Thundery outbreaks possible" = "आसपास गरज के साथ बारिश";
+"Blowing snow" = "ब्लोइंग स्नो";
+"Blizzard" = "बर्फानी तूफान";
+"Fog" = "धुंध";
+"Freezing fog" = "जमा देने वाली धुंध";
+"Patchy light drizzle" = "अलग-अलग इलाकों में मामूली सी बौछार";
+"Light drizzle" = "हल्की बौछार";
+"Freezing drizzle" = "जमा देने वाली बौछार";
+"Heavy freezing drizzle" = "बेहद जमा देने वाली बौछार";
+"Patchy light rain" = "अलग-अलग इलाकों में हल्की बौछार";
+"Light rain" = "हल्की बारिश";
+"Moderate rain at times" = "अक्सर सामान्य बारिश";
+"Moderate rain" = "सामान्य बारिश";
+"Heavy rain at times" = "अक्सर जोरदार बारिश";
+"Heavy rain" = "जोरदार बारिश";
+"Light freezing rain" = "हल्की जमा देने वाली बारिश";

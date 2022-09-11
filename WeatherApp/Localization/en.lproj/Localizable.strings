@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  WeatherApp
+
+  Created by Kapil Khedkar on 10/09/22.
+  
+*/
+
+"navBar_header" = "Weather";
+"empty_location_msg" = "No Location found";
+"get_location_button_text" = "Get Location";
+"observation_time" = "Observation Time";
+"wind_speed" = "Wind Speed";
+"visibility" = "Visibility";
+"precipitation" = "Precipitation";
+
+//Weather Descriptions
+"Sunny" = "Sunny";
+"Partly cloudy" = "Partly cloudy";
+"Cloudy" = "Cloudy";
+"Overcast" = "Overcast";
+"Mist" = "Mist";
+"Patchy rain possible" = "Patchy rain possible";
+"Patchy snow possible" = "Patchy snow possible";
+"Patchy sleet possible" = "Patchy sleet possible";
+"Patchy freezing drizzle possible" = "Patchy freezing drizzle possible";
+"Thundery outbreaks possible" = "Thundery outbreaks possible";
+"Blowing snow" = "Blowing snow";
+"Blizzard" = "Blizzard";
+"Fog" = "Fog";
+"Freezing fog" = "Freezing fog";
+"Patchy light drizzle" = "Patchy light drizzle";
+"Light drizzle" = "Light drizzle";
+"Freezing drizzle" = "Freezing drizzle";
+"Heavy freezing drizzle" = "Heavy freezing drizzle";
+"Patchy light rain" = "Patchy light rain";
+"Light rain" = "Light rain";
+"Moderate rain at times" = "Moderate rain at times";
+"Moderate rain" = "Moderate rain";
+"Heavy rain at times" = "Heavy rain at times";
+"Heavy rain" = "Heavy rain";
+"Light freezing rain" = "Light freezing rain";
+

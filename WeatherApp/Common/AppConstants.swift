@@ -12,4 +12,10 @@ class AppConstants
     static let apiAccessKey = "fef7cc19fde848cc7bf22a3158a07504"
     static let getCurrentWeatherAPI = apiBaseUrl+"current?access_key="+apiAccessKey+"&query="
     
+    static let defaultApiFailureMsg = "Something went wrong!"
+    
+    static let windSpeedUnit = "m/h"
+    static let visibilityUnit = "m"
+    static let precipitationUnit = "mm"
+    
 }
