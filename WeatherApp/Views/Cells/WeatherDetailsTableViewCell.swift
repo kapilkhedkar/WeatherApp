@@ -30,7 +30,7 @@ class WeatherDetailsTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        setupUI()
+        
         
     }
     
@@ -45,13 +45,12 @@ class WeatherDetailsTableViewCell: UITableViewCell {
         weatherCardView.layer.cornerRadius = AppStyles.itemCornerRadius
         weatherCardView.layer.masksToBounds = true
         weatherCardView.backgroundColor = AppStyles.getAppColor(color: .itemBgColor)
-        weatherCardView.layer.shadowColor = AppStyles.getAppColor(color: .itemShadowColor).cgColor
-        weatherCardView.layer.shadowOpacity = AppStyles.itemShadowOpacity
-        weatherCardView.layer.shadowOffset = AppStyles.itemShadowOffset
-        weatherCardView.layer.shadowRadius = AppStyles.itemShadowRadius
         
+        weatherIcon.layer.borderWidth = 1.0
+        weatherIcon.layer.borderColor = AppStyles.getAppColor(color: .itemFontColor).cgColor
         weatherIcon.layer.cornerRadius = 30.0
         weatherIcon.layer.masksToBounds = true
+        
         
         temperatureLabel.font = AppStyles.getFontStyle(style: .blowedUpText)
         temperatureLabel.textColor = AppStyles.getAppColor(color: .itemFontColor)
@@ -62,10 +61,6 @@ class WeatherDetailsTableViewCell: UITableViewCell {
         factorsCardView.layer.cornerRadius = AppStyles.itemCornerRadius
         factorsCardView.layer.masksToBounds = true
         factorsCardView.backgroundColor = AppStyles.getAppColor(color: .itemBgColor)
-        factorsCardView.layer.shadowColor = AppStyles.getAppColor(color: .itemShadowColor).cgColor
-        factorsCardView.layer.shadowOpacity = AppStyles.itemShadowOpacity
-        factorsCardView.layer.shadowOffset = AppStyles.itemShadowOffset
-        factorsCardView.layer.shadowRadius = AppStyles.itemShadowRadius
         
         windSpeedTextLabel.font = AppStyles.getFontStyle(style: .bodySubtitleText)
         windSpeedTextLabel.textColor = AppStyles.getAppColor(color: .itemFontColor)

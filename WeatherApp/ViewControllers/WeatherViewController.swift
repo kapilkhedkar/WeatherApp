@@ -31,27 +31,6 @@ class WeatherViewController: BaseViewController {
         // Do any additional setup after loading the view.
         setupUI()
         
-        getLocation()
-        
-    }
-    
-    func getLocation()
-    {
-        if isLocationPermGranted()
-        {
-            if CLLocationManager.locationServicesEnabled()
-            {
-                locationManager.delegate = self
-                locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
-                locationManager.startUpdatingLocation()
-                
-            }
-            
-        }else
-        {
-            locationManager.requestAlwaysAuthorization()
-            
-        }
         
     }
     
@@ -157,12 +136,14 @@ class WeatherViewController: BaseViewController {
             //Switch to Dark
             CommonFunctions.setThemeMode(mode: AppConstants.themeModeDark)
             self.view.overrideUserInterfaceStyle = .dark
+            setNeedsStatusBarAppearanceUpdate()
             
         }else
         {
             //Switch to Light
             CommonFunctions.setThemeMode(mode: AppConstants.themeModeLight)
             self.view.overrideUserInterfaceStyle = .light
+            setNeedsStatusBarAppearanceUpdate()
             
         }
         
@@ -172,6 +153,8 @@ class WeatherViewController: BaseViewController {
     {
         if Connectivity.isConnectedToInternet
         {
+            LocalizationSystem.sharedInstance.setLanguage(languageCode: AppConstants.languageEnglish)
+            
             locationManager.requestAlwaysAuthorization()
             
             if CLLocationManager.locationServicesEnabled()
@@ -215,6 +198,16 @@ extension WeatherViewController : CLLocationManagerDelegate
             guard let city = city, error == nil else { return }
             
             CommonFunctions.setCityName(city: city)
+            
+            if CommonFunctions.getLanguage() == AppConstants.languageEnglish
+            {
+                LocalizationSystem.sharedInstance.setLanguage(languageCode: AppConstants.languageEnglish)
+                
+            }else
+            {
+                LocalizationSystem.sharedInstance.setLanguage(languageCode: AppConstants.languageHindi)
+                
+            }
             
             self.isLocationFound = true
             self.getWeatherData()
@@ -280,6 +273,7 @@ extension WeatherViewController : UITableViewDataSource
                 return UITableViewCell()
             }
             
+            cell.setupUI()
             cell.setWeatherData(weather: weatherData)
             return cell
             

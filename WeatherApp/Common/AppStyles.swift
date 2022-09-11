@@ -25,16 +25,12 @@ enum AppColor
     case bgColor
     case itemBgColor
     case itemFontColor
-    case itemShadowColor
     
 }
 
 class AppStyles
 {
     static let itemCornerRadius : CGFloat = 8.0
-    static let itemShadowRadius : CGFloat = 10.0
-    static let itemShadowOffset : CGSize = .zero
-    static let itemShadowOpacity : Float = 1.0
     
     class func getFontStyle(style: FontStyle)->UIFont
     {
@@ -66,8 +62,6 @@ class AppStyles
             return UIColor(named: "itemBgColor")!
         case .itemFontColor:
             return UIColor(named: "itemFontColor")!
-        case .itemShadowColor:
-            return UIColor(named: "itemShadowColor")!
         }
         
     }

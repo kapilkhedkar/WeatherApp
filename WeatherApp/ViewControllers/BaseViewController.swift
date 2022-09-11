@@ -16,6 +16,19 @@ class BaseViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle
+    {
+        if CommonFunctions.getThemeMode() == AppConstants.themeModeLight
+        {
+            return .darkContent
+            
+        }else
+        {
+            return .lightContent
+            
+        }
+        
+    }
     
     
     func showLoader()
